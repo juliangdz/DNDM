@@ -9,9 +9,26 @@ https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10202595
 Python 3.6
 PyTorch 1.1.0
 
-# Quick Start
-cd code
-python test.py
+# Installation
+
+1. Setup the Conda environment
+```bash
+conda create -n dndm python=3.6
+```
+```bash
+conda activate dndm
+```
+```bash
+conda install pytorch==1.1.0 torchvision==0.3.0 cudatoolkit=10.0 -c pytorch
+```
+```bash
+pip install scikit-image natsort Pillow cmake cython opencv-python==4.1.2.30 visdom
+```
+
+2. Setup the Directories 
+```bash 
+bash Code/setup.sh
+```
 
 # Citation
 @ARTICLE{10202595,
