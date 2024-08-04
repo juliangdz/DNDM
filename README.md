@@ -27,8 +27,26 @@ pip install scikit-image natsort Pillow cmake cython opencv-python==4.1.2.30 vis
 
 2. Setup the Directories 
 ```bash 
-bash Code/setup.sh
+cd Code/
+bash setup.sh
 ```
+
+# Usage 
+
+1. Open terminal inside the `Code/` directory
+```bash
+cd Code/
+conda activate dndm
+visdom
+```
+
+2. Open a new terminal inside `Code/` directory
+```bash
+cd Code/
+conda activate dndm
+python train.py 
+```
+
 
 # Citation
 @ARTICLE{10202595,
