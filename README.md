@@ -8,6 +8,8 @@ https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10202595
 # Prerequisites
 Python 3.6
 PyTorch 1.1.0
+Ubuntu 
+Anaconda
 
 # Installation
 
